@@ -17,6 +17,7 @@ category: Academic
  
     <div class="pb-3">  
         <p>Bachelor’s thesis written in Japanese</p>
+        <p><a href="https://www.dropbox.com/s/so2xl7n0dp631ou/RaiSato_thesis_final.pdf?dl=0">PDF</a></p>
     </div>
     
 </div>

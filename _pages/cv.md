@@ -5,7 +5,7 @@ permalink: /cv/
 description: 
 nav: true
 ---
-See <a href="">here</a> for more ditailed cv
+See <a href="https://www.dropbox.com/s/wrb1pzwf0hwwrer/cv.pdf?dl=0">here</a> for more ditailed cv
 
 <div class="shadow p-3 mb-5 bg-body rounded">
 
