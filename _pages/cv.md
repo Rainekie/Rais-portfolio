@@ -43,6 +43,16 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
   <div class="row">
     <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 -</button></div>
     <div class="col-10">
+    <p>Okinawa Institute of Science and Technology - Laboratory Technician</p>
+    <ul>
+        <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
+        <li>Headed by Prof. Tom Froese</li>
+    </ul>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 -</button></div>
+    <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Research Internship Student</p>
     <ul>
         <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
@@ -126,3 +136,4 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
           </div>
       </div>
     </div>
+
