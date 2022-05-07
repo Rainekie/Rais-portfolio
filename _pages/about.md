@@ -17,11 +17,7 @@ Rai Sato (佐藤 来) is a lab technician at [Okinawa Institute of Science and T
 
 My primary research objective and interest lie in understanding the human ability to perceive reality. 
 
-Human beings use their senses to gather information about the outside world, analyze multimodal inputs, and respond appropriately. 
-
-We try to evoke the computationally created real worlds by providing recipients with a variety of sensory information based on their sensory processing mechanisms. 
-
-However, many scientific mechanisms remain unclear; for instance, What kind of stimulus presentation can most efficiently present reality? How do people perceive reality from presented sensory information?.
+Human beings use their senses to gather information about the outside world, analyze multimodal inputs, and respond appropriately. We try to evoke the computationally created real worlds by providing recipients with a variety of sensory information based on their sensory processing mechanisms. However, many scientific mechanisms remain unclear; for instance, What kind of stimulus presentation can most efficiently present reality? How do people perceive reality from presented sensory information?.
 
 To reveal these questions, I am currently focusing on these research themes;
 - Temporal integration of multi-sensory inputs

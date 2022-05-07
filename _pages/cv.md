@@ -41,7 +41,7 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
 
 <div class="container">
   <div class="row">
-    <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 -</button></div>
+    <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2022 -</button></div>
     <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Laboratory Technician</p>
     <ul>
@@ -51,7 +51,7 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
     </div>
   </div>
     <div class="row">
-    <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 -</button></div>
+    <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 - 2022</button></div>
     <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Research Internship Student</p>
     <ul>
