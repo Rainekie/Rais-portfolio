@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Multimodal perception and sound enginnering.
+subtitle: Multimodal perception and sound engineering.
 
 profile:
   align: right
