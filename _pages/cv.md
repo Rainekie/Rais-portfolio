@@ -97,7 +97,7 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
 <h2>Work Experience</h2>
 <div class="container">
     <div class="row">
-        <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2020 - </button></div>
+        <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2020 - 2022</button></div>
         <div class="col-10">
             <p>Sound Programmer and Researcher at <a href="https://gatari.co.jp/">GATARI Inc.</a></p>
             <ul>
