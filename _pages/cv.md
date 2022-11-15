@@ -32,14 +32,10 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
 
 <h2>Research Areas</h2>
 
-<ul>
-  <li> Experiences in various academic areas across the arts, engineering, and sciences at three institutions.
-  <li> Theories and practices of immersive sound recording and reproduction techniques, and research of multisensory perception for VR/AR contents.
-  <li> Development of the BCI system for speech-in-noise understanding training using EEG and physiological data.
-  <li> Research on social interaction and sensory substitution based on the theories from embodied cognitive science.
-</ul>
-
-</div>
+<p>Experiences in various academic areas across the arts, engineering, and sciences at three institutions.</p>  
+<p>Theories and practices of immersive sound recording and reproduction techniques, and research of multisensory perception for VR/AR contents.</p> 
+<p>Development of the BCI system for speech-in-noise understanding training using EEG and physiological data.</p>
+<p>Research on social interaction and sensory substitution based on the theories from embodied cognitive science.</p>
 
 <div class="shadow p-3 mb-5 bg-body rounded">
 
@@ -51,7 +47,7 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
     <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Laboratory Technician</p>
     <ul>
-        <li><a href="https://groups.oist.jp/ecsu">Embodied Cognitive Science Unit</a></li>
+        <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
         <li>Headed by Prof. Tom Froese</li>
     </ul>
     </div>
@@ -61,7 +57,7 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
     <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Research Internship Student</p>
     <ul>
-        <li><a href="https://groups.oist.jp/ecsu">Embodied Cognitive Science Unit</a></li>
+        <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
         <li>Superviced by Prof. Tom Froese</li>
     </ul>
     </div>
@@ -97,7 +93,7 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
 <h2>Work Experience</h2>
 <div class="container">
     <div class="row">
-        <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2020 - 2022</button></div>
+        <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2020 - </button></div>
         <div class="col-10">
             <p>Sound Programmer and Researcher at <a href="https://gatari.co.jp/">GATARI Inc.</a></p>
             <ul>
@@ -125,12 +121,12 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
     <div class="container">
         <div class="row">
           <div class="col-2">Languages</div>
-          <div class="col-10">Matlab, R language, Python, MAX/MSP, Arduino, HTML/CSS</div>
+          <div class="col-10">Matlab, R language, Python, MAX/MSP, Arduino, Swift, HTML/CSS</div>
         </div>
           <div class="row pt-2">
           <div class="col-2">Software</div>
           <div class="col-10">Reaper, Pro tools, Dante(audio networking system), Wwise, Unity, Adobe
-            Illustrator, EEGLAB, Psychtoolbox, Lab Streaming Layer</div>
+            Illustrator, EEGLAB, Psychtoolbox</div>
         </div>
           <div class="row pt-2">
           <div class="col-2">Hardware</div>
