@@ -32,7 +32,13 @@ See <a href="https://www.dropbox.com/s/hu4psfsiwdlpms1/cv_withoutAddress.pdf?dl=
 
 <h2>Research Areas</h2>
 
-My research focuses on the temporal synchrony between vibrotactile and auditory, and the interactive auditory training using biosignals such as an electroencephalogram (EEG). I also have technical skills in music recording and audio engineering, especially 5.1 ch surround system, and more immersive sound technologies such as Ambisonics and 22.2 ch multi channel audio system.
+<ul>
+  <li> Experiences in various academic areas across the arts, engineering, and sciences at three institutions.
+  <li> Theories and practices of immersive sound recording and reproduction techniques, and research of multisensory perception for VR/AR contents.
+  <li> Development of the BCI system for speech-in-noise understanding training using EEG and physiological data.
+  <li> Research on social interaction and sensory substitution based on the theories from embodied cognitive science.
+</ul>
+
 </div>
 
 <div class="shadow p-3 mb-5 bg-body rounded">
@@ -45,7 +51,7 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
     <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Laboratory Technician</p>
     <ul>
-        <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
+        <li><a href="https://groups.oist.jp/ecsu">Embodied Cognitive Science Unit</a></li>
         <li>Headed by Prof. Tom Froese</li>
     </ul>
     </div>
@@ -55,7 +61,7 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
     <div class="col-10">
     <p>Okinawa Institute of Science and Technology - Research Internship Student</p>
     <ul>
-        <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
+        <li><a href="https://groups.oist.jp/ecsu">Embodied Cognitive Science Unit</a></li>
         <li>Superviced by Prof. Tom Froese</li>
     </ul>
     </div>
@@ -119,12 +125,12 @@ My research focuses on the temporal synchrony between vibrotactile and auditory,
     <div class="container">
         <div class="row">
           <div class="col-2">Languages</div>
-          <div class="col-10">Matlab, R language, Python, MAX/MSP, Arduino, Swift, HTML/CSS</div>
+          <div class="col-10">Matlab, R language, Python, MAX/MSP, Arduino, HTML/CSS</div>
         </div>
           <div class="row pt-2">
           <div class="col-2">Software</div>
           <div class="col-10">Reaper, Pro tools, Dante(audio networking system), Wwise, Unity, Adobe
-            Illustrator, EEGLAB, Psychtoolbox</div>
+            Illustrator, EEGLAB, Psychtoolbox, Lab Streaming Layer</div>
         </div>
           <div class="row pt-2">
           <div class="col-2">Hardware</div>
