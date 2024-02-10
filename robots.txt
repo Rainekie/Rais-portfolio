@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://rainekie.github.io/Rais-portfolio//sitemap.xml
+Sitemap: https://rai.tokyo/sitemap.xml
