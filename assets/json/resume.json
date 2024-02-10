@@ -1,199 +1,174 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Rai Sato",
+    "label": "Researcher, Sound Engineer",
+    "email": "s.rai@aol.jp",
+    "summary": "Ph.D student at Korea Advanced Institute of Science and Technology (KAIST). My research aims to enhance the auditory experience in Extended Reality (XR) using the state-of-the-art sound space recognition technologies."
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Korea Advanced Institute of Science and Technology",
+      "location": "Daejeon, South Korea",
+      "url": "https://airislab.wordpress.com/",
+      "area": "Applied and Innovative Research for Immeresive Sound Lab, Graduate School of Culture Technology",
+      "studyType": "Integrated master's/doctoral program",
+      "startDate": "2023",
+      "endDate": "",
+      "courses": ["Superviced by Prof. Sungyoung Kim"]
+    },
+    {
+      "institution": "Tokyo University of the Arts",
+      "location": "Tokyo, Japan",
+      "url": "http://mce.geidai.ac.jp/",
+      "area": "Department of Musical Creativity and the Environment, Faculty of Music",
+      "studyType": "Bachelor of Music with Honors",
+      "startDate": "2016",
+      "endDate": "2021",
+      "courses": ["Superviced by Prof. Atsushi Marui and Prof. Toru Kamekawa", "Major: Psychoacoustics, Sound Recording", "Thesis: Variation in the window of temporal integration with changing attributes of audio-tactile stimuli"]
+    }
+  ],
+  "work": [
+    {
+      "name": "GATARI Inc.",
+      "location": "Tokyo, Japan",
+      "position": "Sound Programmer and Researcher",
+      "url": "https://gatari.co.jp/",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "I am responsible for organizing its authoring system and implementing new audio AR technology using my knowledge of human sound perception and skills in real-time signal processing.",
+      "highlights": ""
+    },
+    {
+      "name": "Okinawa Institute of Science and Technology",
+      "location": "Okinawa, Japan",
+      "position": "Laboratory Technician",
+      "url": "https://groups.oist.jp/ecsu/",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Enbodied Cognitive Science Unit, headed by by Prof. Tom Froese",
+      "highlights": ""
+    },
+    {
+      "name": "Okinawa Institute of Science and Technology",
+      "location": "Okinawa, Japan",
+      "position": "Research Internship Student",
+      "url": "https://groups.oist.jp/ecsu/",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Enbodied Cognitive Science Unit, supervised by by Prof. Tom Froese",
+      "highlights": ""
+    },
+    {
+      "name": "Rochester Institute of Technology",
+      "location": "Rochester, NY, USA",
+      "position": "International Visiting Research Student",
+      "url": "https://www.rit.edu/engineeringtechnology/department-electrical-and-computer-engineering-technology",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Department of Electrical Computer and Telecommunication Engineering Technology, College of Engineering Technology, headed by by Prof. Sungyoung Kim",
+      "highlights": ""
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Early Career Presentation Awards in Computational Acoustics",
+      "date": "2023-12",
+      "awarder": "Acoustical Society of America",
+      "summary": "For the presentaion of the paper titled 'Room-aware Portable Auditory Augmented Reality: Real-time Spatial Audio Generation with geometric Data Analysis.'"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "KAIST Global Presidential Scholarship (KGPS)",
+      "date": "2023-02",
+      "awarder": "KAIST",
+      "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+      "summary": "KGPS is a highly selective but distinguished scholarship program offered to outstanding Master's or Master-Ph.D. Integrated degree admitted students. Full Tuition Grant: 4 semesters and Monthly Stipend Guarantee: KRW 1,000,000 for 4 semesters."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Acanthus Music Award",
+      "date": "2021-06",
+      "awarder": "Tokyo Universisty of the Arts",
+      "summary": "An honors by Tokyo University of the Arts."
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Muto Mai Scholoarship",
+      "date": "2020-04",
+      "awarder": "Tokyo Universisty of the Arts",
+      "summary": "An exhibition by Tokyo University of the Arts for students with excellent academic and personal attributes."
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Japan Public-Private Partnership Student Study Abroad Program",
+      "date": "2019-06",
+      "awarder": "Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan",
+      "url": "https://tobitate-mext.jasso.go.jp/about/english.html",
+      "summary": "Scholarship for an education abroad."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Computer Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Matlab",
+        "R language",
+        "Python",
+        "C#",
+        "Max/MSP"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Reaper",
+        "Pro tools",
+        "Dante (audio network system)",
+        "Unity",
+        "Wwise",
+        "Adobe Illustrator"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Any kinds of sound equipment",
+        "EEG measurement system (Brain products, BioSemi inc, OpenBCI)",
+        "Prototype making using Auduino, Raspberry Pi, ESP32"
+      ]
+    },
+    {
+      "name": "General Skills",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Psychoacoustics experiment design and statistical analysis",
+        "Room acoustics measurement, simulation, and design",
+        "Sound recording for immersive music",
+        "Sound design for AR game and experience",
+        "Sound reproduction system design",
+        "Haptic feedback design",
+        "EEG measurement system design"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "language": "Japanese",
+      "fluency": "Native Speaker",
+      "icon": ""
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "language": "Korean",
+      "fluency": "Basic Communication",
+      "icon": ""
     }
   ]
 }
