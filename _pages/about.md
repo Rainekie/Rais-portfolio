@@ -6,7 +6,7 @@ subtitle: about me.
 
 profile:
   align: right
-  image: rai_icon.png
+  image: icon.png
   image_circular: false # crops the image to make it circular
 
 news: false # includes a list of news items
