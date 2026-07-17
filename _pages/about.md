@@ -8,6 +8,7 @@ profile:
   align: right
   image: icon.png
   image_circular: false
+  image_responsive: false
 
 news: false
 latest_posts: false
