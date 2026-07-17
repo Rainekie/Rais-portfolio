@@ -2,18 +2,13 @@
 layout: page
 permalink: /publications/
 title: publications
-description: 
 nav: true
 nav_order: 2
-years: [2024, 2023, 2022, 2021, 2020]
+description: Journal articles, conference proceedings, and patents by Rai Sato.
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
+<p class="publication-counts"><strong>4</strong> journal articles <span>·</span> <strong>24</strong> conference papers <span>·</span> <strong>1</strong> granted patent</p>
 
-{%- for y in page.years %}
-  <!-- <h2 class="year">{{y}}</h2> -->
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
+<div class="publications publication-list">
+  {% bibliography %}
 </div>

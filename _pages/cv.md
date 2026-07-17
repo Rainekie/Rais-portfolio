@@ -1,174 +1,48 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: Curriculum vitae
+title: curriculum vitae
 nav: true
-nav_order: 5
-cv_pdf: 
-description: 
-toc:
-  sidebar: left
+nav_order: 3
+description: Education, experience, awards, and technical practice.
 ---
 
-<div class="shadow p-3 mb-5 bg-body rounded">
+<p class="cv-download"><a class="btn btn-outline-primary" href="{{ '/assets/pdf/rai-sato-cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i>&nbsp; Download full CV</a> <span>Updated July 2026</span></p>
 
-  <h2>General Information</h2>
+<section class="cv-section">
+  <h2>Experience</h2>
+  <div class="cv-entry"><time>Apr—Jul 2026</time><div><strong>Global Research Intern</strong><br>Sony Corporation · Tokyo, Japan</div></div>
+  <div class="cv-entry"><time>May 2022—Feb 2023</time><div><strong>Laboratory Technician</strong><br>Okinawa Institute of Science and Technology · Okinawa, Japan</div></div>
+  <div class="cv-entry"><time>2020—2022</time><div><strong>Sound Programmer and Researcher</strong><br>GATARI Inc. · Tokyo, Japan</div></div>
+  <div class="cv-entry"><time>Sep 2019—Aug 2021</time><div><strong>International Visiting Research Student</strong><br>Rochester Institute of Technology · Rochester, New York</div></div>
+</section>
 
-  <div class="container">
-    <div class="row pt-2">
-      <div class="col-2">Full Name</div>
-      <div class="col-10">Rai Sato</div>
-    </div>
-    <div class="row pt-2">
-      <div class="col-2">Contact</div>
-      <div class="col-10">s.rai [at] aol.jp</div>
-    </div>
-    <div class="row pt-2">
-      <div class="col-2">Languages</div>
-      <div class="col-10">Japanese (native), English (fluent)</div>
-    </div>
-  </div>
-
-</div>
-
-<div class="shadow p-3 mb-5 bg-body rounded">
-
-  <h2>Research Areas</h2>
-
-  <p>Experiences in various academic areas across the arts, engineering, and sciences at three institutions.</p>
-  <p>Theories and practices of immersive sound recording and reproduction techniques, and research of multisensory
-    perception for VR/AR contents.</p>
-  <p>Development of the BCI system for speech-in-noise understanding training using EEG and physiological data.</p>
-  <p>Research on social interaction and sensory substitution based on the theories from embodied cognitive science.</p>
-
-</div>
-
-<div class="shadow p-3 mb-5 bg-body rounded">
-
+<section class="cv-section">
   <h2>Education</h2>
+  <div class="cv-entry"><time>2023—Present</time><div><strong>Integrated M.S./Ph.D. Program · Ph.D. Candidate</strong><br>Korea Advanced Institute of Science and Technology (KAIST)<br><small>Applied and Innovative Research for Immersive Sound Lab, Graduate School of Culture Technology</small></div></div>
+  <div class="cv-entry"><time>2016—2021</time><div><strong>Bachelor of Music with Honors</strong><br>Tokyo University of the Arts<br><small>Department of Musical Creativity and the Environment, Faculty of Music</small></div></div>
+</section>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-2">
-        <button type="button" class="btn btn-primary btn-sm">2023 -</button>
-      </div>
-      <div class="col-10">
-        <p>Korea Advanced Institute of Science and Technology - Integrated master's/doctoral program (doctoral)</p>
-        <ul>
-          <li><a href="https://airislab.wordpress.com/">Applied and Innovative Research for Immeresive Sound LAB</a>
-          </li>
-          <li>Headed by Prof. Sungyoung Kim</li>
-        </ul>
-      </div>
-    </div>
+<section class="cv-section">
+  <h2>Technical practice</h2>
+  <dl class="skills-list">
+    <dt>Code & systems</dt><dd>MATLAB, Max/MSP, Python, C#, R, Unity, Wwise</dd>
+    <dt>Acoustic tools</dt><dd>Reaper, Pro Tools, Dante, IRCAM Spat, room measurement and simulation</dd>
+    <dt>Hardware</dt><dd>Audio systems, EEG, Arduino, Raspberry Pi, ESP32, rapid prototyping</dd>
+    <dt>Research</dt><dd>Psychoacoustics, experimental design, statistics, immersive recording, spatial reproduction</dd>
+  </dl>
+</section>
 
-    <div class="row">
-      <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2022 -</button></div>
-      <div class="col-10">
-        <p>Okinawa Institute of Science and Technology - Laboratory Technician</p>
-        <ul>
-          <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
-          <li>Headed by Prof. Tom Froese</li>
-        </ul>
-      </div>
-    </div>
+<section class="cv-section">
+  <h2>Awards</h2>
+  <div class="cv-entry"><time>2026</time><div><strong>Kim Young-han Global Leader Scholarship</strong><br>Korea Advanced Institute of Science and Technology (KAIST)</div></div>
+  <div class="cv-entry"><time>2024</time><div><strong>Outstanding Presentation Award</strong><br>2024 Fall Meeting of the Acoustical Society of Korea</div></div>
+  <div class="cv-entry"><time>2023</time><div><strong>Early Career Presentation Award in Computational Acoustics</strong><br>185th Meeting of the Acoustical Society of America</div></div>
+  <div class="cv-entry"><time>2023—2025</time><div><strong>KAIST Global Presidential Scholarship</strong><br>Full tuition exemption and stipend for outstanding admitted students</div></div>
+  <div class="cv-entry"><time>2019—2020</time><div><strong>Japan Public-Private Partnership Student Study Abroad Program</strong><br>Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan</div></div>
+</section>
 
-    <div class="row">
-      <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 - 2022</button></div>
-      <div class="col-10">
-        <p>Okinawa Institute of Science and Technology - Research Internship Student</p>
-        <ul>
-          <li><a href="https://groups.oist.jp/ecsu">Enbodied Cognitive Science Unit</a></li>
-          <li>Superviced by Prof. Tom Froese</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2019 - 2021</button></div>
-      <div class="col-10">
-        <p>Rochester Institute of Technology - International Visiting Research Student</p>
-        <ul>
-          <li><a
-              href="https://www.rit.edu/engineeringtechnology/department-electrical-and-computer-engineering-technology">Department
-              of Electrical Computer and Telecommunication Engineering Technology, College of Engineering
-              Technology</a></li>
-          <li>Superviced by Prof. Sungyoung Kim</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2016 - 2021</button></div>
-      <div class="col-10">
-        <p>Tokyo University of the Arts - Bachelor of Music with Honors</p>
-        <ul>
-          <li><a href="http://mce.geidai.ac.jp/">Department of Musical Creativity and the Environment, Faculty of
-              Music</a></li>
-          <li>Superviced by Prof. Atsushi Marui and Prof. Toru Kamekawa</li>
-          <li>Major: Psychoacoustics, Sound Recording</li>
-          <li>Thesis: Variation in the window of temporal integration with changing attributes of audio-tactile
-            stimuli</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
-<div class="shadow p-3 mb-5 bg-body rounded">
-
-  <h2>Work Experience</h2>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2020 -  2022</button></div>
-      <div class="col-10">
-        <p>Sound Programmer and Researcher at <a href="https://gatari.co.jp/">GATARI Inc.</a></p>
-        <ul>
-          <li>Tokyo, Japan</li>
-          <li>I am responsible for organizing its authoring system and implementing new audio AR technology using my
-            knowledge of human sound perception and skills in real-time signal processing.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2"><button type="button" class="btn btn-primary btn-sm">2021 </button></div>
-      <div class="col-10">
-        <p>Teaching Assistant at Rochester Institute of Technology</p>
-        <ul>
-          <li>Teach a class “3D Audio: Theory and Practice” to classes of 15 undergraduate students.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="shadow p-3 mb-5 bg-body rounded">
-
-  <h2>Technical Skills</h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-2">Languages</div>
-      <div class="col-10">Matlab, R language, Python, MAX/MSP, Arduino, HTML/CSS</div>
-    </div>
-    <div class="row pt-2">
-      <div class="col-2">Software</div>
-      <div class="col-10">Reaper, Pro tools, Dante(audio networking system), Wwise, Unity, Adobe
-        Illustrator, EEGLAB, Psychtoolbox</div>
-    </div>
-    <div class="row pt-2">
-      <div class="col-2">Hardware</div>
-      <div class="col-10">Any kinds of sound equipments, EEG measurement device (BRAINAMP DC/Brain products, ActiveTwo
-        EEG system/Biosemi Inc., OpenBCI system/OpenBCI), Prototype making using Arduino</div>
-    </div>
-    <div class="row pt-2">
-      <div class="col-2">General</div>
-      <div class="col-10">Psychoacoustics, Haptic(vibrotactile) design/research, Statistical analysis, Sound recording
-        skills for immersive music, Sound design for AR game/experience, Human-computer interaction research, EEG
-        measurement</div>
-    </div>
-  </div>
-</div>
+<section class="cv-section">
+  <h2>Contact</h2>
+  <p><a href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a><br>Daejeon, Republic of Korea</p>
+</section>

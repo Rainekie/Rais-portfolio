@@ -2,22 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Rai Sato's Portfolio # the website title (if blank, full name will be used instead)
+title: Rai Sato
 first_name: Rai
-middle_name: 
+middle_name:
 last_name: Sato
-email: s.rai@aol.jp
-description: # the ">" symbol means to ignore newlines until "footer_text:"
+email: s.rai@kaist.ac.kr
+description: Spatial audio researcher working across auditory augmented reality, room acoustics, immersive audio, and perceptual evaluation.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Acoustics, Virtual acoustics, Sound, Art, Research # add your own keywords or leave empty
+  Spatial audio, room acoustics, and immersive systems research.
+keywords: Spatial audio, Room acoustics, Auditory augmented reality, Immersive audio, Psychoacoustics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🐏  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🐏 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://rai.tokyo # the base hostname & protocol for your site https://<your-github-username>.github.io
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: true
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -38,17 +37,17 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -65,9 +64,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: Rainekie# your GitHub user name
+github_username: Rainekie
 gitlab_username: # your GitLab user name
-x_username: Rainekie# your X handle
+x_username: Rainekie
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -102,7 +101,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Please feel free to contact me!
+  Open to research collaborations and conversations about spatial audio.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -127,7 +126,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
@@ -156,8 +155,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -174,12 +171,12 @@ collections:
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -217,6 +214,15 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - assets/audio
+  - assets/jupyter
+  - assets/json/table_data.json
+  - assets/pdf/example_pdf.pdf
+  - assets/plotly
+  - assets/video
+  - docker-compose-slim.yml
+  - lighthouse_results
+  - reports
   - vendor
 keep_files:
   - CNAME
@@ -281,8 +287,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: Rai
-  first_name: Sato
+  last_name: Sato
+  first_name: Rai
 
   style: apa
   locale: en
@@ -307,8 +313,8 @@ scholar:
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -363,14 +369,14 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
+enable_masonry: false # enables automatic project cards arrangement
+enable_math: false # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
 # Library versions

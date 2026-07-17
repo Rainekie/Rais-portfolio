@@ -2,26 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: about me.
+subtitle: Spatial audio · Room acoustics · Immersive systems
 
 profile:
   align: right
   image: icon.png
-  image_circular: false # crops the image to make it circular
+  image_circular: false
 
-news: false # includes a list of news items
-latest_posts: false # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false
+latest_posts: false
+selected_papers: false
+social: true
 ---
 
-Rai Sato (佐藤 来) is a Ph.D. Student at [Graduate School of Culture Technology, Korea Advanced Technology of Science and Technology](https://ct.kaist.ac.kr/), South Korea (Feb 2023 --).
+I am **Rai Sato (佐藤 来)**, a Ph.D. candidate in the [Graduate School of Culture Technology at KAIST](https://ct.kaist.ac.kr/) and a member of the [Applied and Innovative Research for Immersive Sound (AIRIS) Lab](https://airislab.kaist.ac.kr/).
 
-My research aims to enhance the auditory experience in Extended Reality (XR) by developing a novel rendering technique that makes virtual sounds presented in XR perceptually indistinguishable from physical word. This is achieved through a real-time and seamless acoustic space inference mechanism, allowing for a more immersive and natural sound experience without any sense of incongruity.
+My research focuses on perceptually convincing spatial audio for immersive and augmented-reality systems. I develop real-time, room-aware rendering methods that infer and reproduce the acoustics of the listener's surroundings, while investigating how binaural cues, reverberation, and listener- and environment-related factors shape presence and preference. My broader work includes 6DoF aural-heritage reconstruction and adaptive in-vehicle acoustic systems.
 
-XRs represent a blend of real and virtual environments, facilitating human-computer interactions via cutting-edge technology and wearable devices. As the Metaverse emerges as a novel avenue for social connection, it holds the potential to impact various facets of our lives, extending beyond entertainment and digital arts. To tap into this potential, it's crucial to grasp the cognitive processes governing our selection and interpretation of multisensory data in the real world. This understanding can then guide the creation of immersive content for Metaverse users. Yet, current XR technologies and studies predominantly emphasize visual experiences, sidelining the holistic multisensory interactions, notably auditory, that shape our perception of reality. Crafting realistic audio and accompanying tactile sensations is pivotal for authentic virtual spatial experiences. When users interact with dynamic soundscapes that adapt to environmental cues, it heightens their sense of "being there". Such fluid, integrated interactivity can amplify the authenticity of XR encounters and foster a communal experience within the Metaverse.
+### Research interests
 
-Specifically, I am currently focusing on these research themes;
-- Real-time spatial sound rendering system for Auditory Augmented Reality (AAR): Augmented reality Room Acoustic Estimator (ARAE)
-- Immersive audio reproduction and perception
-- Aural heritage preservation using 6DoF audio representation
+<div class="interest-grid">
+  <a data-index="01" href="{{ '/research/#aar' | relative_url }}"><strong>Room-aware audio</strong><span>Real-time virtual acoustics for auditory augmented reality</span></a>
+  <a data-index="02" href="{{ '/research/#heritage' | relative_url }}"><strong>Aural heritage</strong><span>Navigable 6DoF reconstructions of cultural soundscapes</span></a>
+  <a data-index="03" href="{{ '/research/#binaural' | relative_url }}"><strong>Binaural perception</strong><span>Listener preference and perceptual evaluation</span></a>
+  <a data-index="04" href="{{ '/research/#automotive' | relative_url }}"><strong>In-vehicle acoustics</strong><span>Adaptive sound fields for mobility environments</span></a>
+</div>
+
+Recent work includes a 2026 article in _npj Acoustics_ on regional differences in listener preferences for head-tracked binaural audio. See the [research overview]({{ '/research/' | relative_url }}), [publications]({{ '/publications/' | relative_url }}), or [download my CV]({{ '/assets/pdf/rai-sato-cv.pdf' | relative_url }}).
