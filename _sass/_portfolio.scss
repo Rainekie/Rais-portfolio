@@ -330,6 +330,38 @@ a {
   padding-bottom: 0.75rem;
 }
 
+.publication-kind {
+  margin-bottom: 0.35rem;
+}
+
+.publication-type {
+  display: inline-block;
+  padding: 0.16rem 0.52rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.055em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.publication-type-journal {
+  color: var(--global-bg-color);
+  background: var(--global-theme-color);
+}
+
+.publication-type-conference {
+  color: var(--global-theme-color);
+  background: transparent;
+}
+
+.publication-type-patent {
+  color: #8a641d;
+  border-color: #b58a35;
+  background: color-mix(in srgb, #d9ae55 14%, var(--global-card-bg-color));
+}
+
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
 }

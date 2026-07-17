@@ -39,6 +39,16 @@
 
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    <!-- Publication type -->
+    <div class="publication-kind">
+      {% if entry.keywords contains 'patent' %}
+        <span class="publication-type publication-type-patent">Patent</span>
+      {% elsif entry.type == 'article' %}
+        <span class="publication-type publication-type-journal">Journal Article</span>
+      {% elsif entry.type == 'inproceedings' or entry.type == 'incollection' %}
+        <span class="publication-type publication-type-conference">Conference</span>
+      {% endif %}
+    </div>
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
