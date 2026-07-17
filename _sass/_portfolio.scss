@@ -339,6 +339,11 @@ a {
   text-align: right;
 }
 
+/* Use the first conference badge as a section label; keep later titles aligned. */
+.publication-list .bibliography > li:has(.publication-type-conference) ~ li:has(.publication-type-conference) .publication-kind-left {
+  visibility: hidden;
+}
+
 .publication-type {
   display: inline-block;
   padding: 0.16rem 0.52rem;
@@ -408,6 +413,10 @@ footer.sticky-bottom {
   .publication-kind-left {
     margin-bottom: 0.45rem;
     text-align: left;
+  }
+
+  .publication-list .bibliography > li:has(.publication-type-conference) ~ li:has(.publication-type-conference) .publication-kind-left {
+    display: none;
   }
 
   .cv-download {
