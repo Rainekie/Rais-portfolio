@@ -1,8 +1,19 @@
 ---
 ---
+{% if entry.keywords contains 'patent' %}
+  {% assign publication_type_label = 'Patent' %}
+  {% assign publication_type_class = 'publication-type-patent' %}
+{% elsif entry.type == 'article' %}
+  {% assign publication_type_label = 'Journal Article' %}
+  {% assign publication_type_class = 'publication-type-journal' %}
+{% elsif entry.type == 'inproceedings' or entry.type == 'incollection' %}
+  {% assign publication_type_label = 'Conference' %}
+  {% assign publication_type_class = 'publication-type-conference' %}
+{% endif %}
+
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+    <div class="col-sm-2 {% if entry.preview %}preview{% elsif entry.abbr %}abbr{% else %}publication-kind publication-kind-left{% endif %}">
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -33,22 +44,21 @@
         {% else %}
           <abbr class="badge">{{ entry.abbr }}</abbr>
         {% endif %}
+      {% elsif publication_type_label %}
+        <span class="publication-type {{ publication_type_class }}">{{ publication_type_label }}</span>
       {% endif %}
     </div>
   {% endif %}
 
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    <!-- Publication type -->
-    <div class="publication-kind">
-      {% if entry.keywords contains 'patent' %}
-        <span class="publication-type publication-type-patent">Patent</span>
-      {% elsif entry.type == 'article' %}
-        <span class="publication-type publication-type-journal">Journal Article</span>
-      {% elsif entry.type == 'inproceedings' or entry.type == 'incollection' %}
-        <span class="publication-type publication-type-conference">Conference</span>
-      {% endif %}
-    </div>
+    {% unless site.enable_publication_thumbnails %}
+      <div class="publication-kind">
+        {% if publication_type_label %}
+          <span class="publication-type {{ publication_type_class }}">{{ publication_type_label }}</span>
+        {% endif %}
+      </div>
+    {% endunless %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
