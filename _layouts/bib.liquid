@@ -60,7 +60,20 @@
       </div>
     {% endunless %}
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% assign publication_url = entry.url %}
+    {% if publication_url == blank and entry.doi %}
+      {% assign publication_url = entry.doi | prepend: 'https://doi.org/' %}
+    {% endif %}
+    <div class="title">
+      {% if publication_url %}
+        <a class="publication-title-link" href="{{ publication_url | escape }}" target="_blank" rel="external nofollow noopener">
+          {{- entry.title -}}
+          <span class="publication-external-mark" aria-hidden="true">↗</span>
+        </a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -175,6 +188,25 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.doi %}
+        <a
+          href="https://doi.org/{{ entry.doi | escape }}"
+          class="btn btn-sm z-depth-0"
+          role="button"
+          target="_blank"
+          rel="external nofollow noopener"
+          >DOI</a
+        >
+      {% elsif entry.url %}
+        <a
+          href="{{ entry.url | escape }}"
+          class="btn btn-sm z-depth-0"
+          role="button"
+          target="_blank"
+          rel="external nofollow noopener"
+          >Source</a
+        >
+      {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}

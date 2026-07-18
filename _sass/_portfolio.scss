@@ -330,6 +330,25 @@ a {
   padding-bottom: 0.75rem;
 }
 
+.publication-title-link {
+  color: inherit;
+  transition: color 0.15s ease;
+}
+
+.publication-title-link:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.publication-external-mark {
+  display: inline-block;
+  margin-left: 0.18rem;
+  color: var(--global-theme-color);
+  font-size: 0.72em;
+  font-weight: 500;
+  transform: translateY(-0.12em);
+}
+
 .publication-kind {
   margin-bottom: 0.35rem;
 }
