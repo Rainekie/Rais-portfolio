@@ -171,6 +171,7 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% capture entrymonth %}{% endcapture %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}

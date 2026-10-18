@@ -330,6 +330,24 @@ a {
   padding-bottom: 0.75rem;
 }
 
+/* Within each year: journal articles, then conference papers, then patents. */
+.publication-list .bibliography {
+  display: flex;
+  flex-direction: column;
+}
+
+.publication-list .bibliography > li:has(.publication-type-journal) {
+  order: 1;
+}
+
+.publication-list .bibliography > li:has(.publication-type-conference) {
+  order: 2;
+}
+
+.publication-list .bibliography > li:has(.publication-type-patent) {
+  order: 3;
+}
+
 .publication-title-link {
   color: inherit;
   transition: color 0.15s ease;
